@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>D&amp;D Students Leuven</title>
         <link>http://localhost:1313/</link>
         <description>D&amp;D Students Leuven</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 02:42:58 &#43;0200</lastBuildDate>

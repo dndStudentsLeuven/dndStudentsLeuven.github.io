@@ -492,16 +492,8 @@ bilibili:
   Icon:
     Simpleicons: bilibili
 
-# 063: Discord User Profile
-discord:
-  Weight: 63
-  Prefix: https://discordapp.com/users/
-  Title: Discord
-  Icon:
-    Class: fab fa-discord fa-fw
-
 # 064: Discord Server Invite Link
-discordInvite:
+discord:
   Weight: 64
   Prefix: https://discord.gg/
   Title: Discord
