@@ -1,0 +1,4 @@
+baseURL = 'https://dndleuven.be/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'LoveIt'
