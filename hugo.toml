@@ -1,4 +1,4 @@
-baseURL = 'https://dndleuven.be/'
+baseURL = 'https://www.dndleuven.be/'
 languageCode = 'en-us'
 title = 'D&D Students Leuven'
 theme = 'LoveIt'
