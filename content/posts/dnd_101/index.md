@@ -4,7 +4,7 @@ date = 2023-10-18T02:42:58+02:00
 draft = false
 author = "sussususususus amogus" 
 authorLink = false
-contents = false
+contents = true
 toc.enable = false
 +++
 
@@ -12,7 +12,7 @@ Al veel over D&D gehoord maar nog nooit de kans gehad om te spelen? Ben je een e
 
 
 De introductiesessie start om 18u30, maar indien je al ervaring hebt met D&D kan je ook direct naar de oneshot komen die start rond 20u00.
-
+    
 
 Schrijf je nu in via: https://docs.google.com/forms/d/159sYGA6noSbzU3DBefzBlaKLGPyIjznBEE66BSnz85I/edit
 

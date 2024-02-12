@@ -12,7 +12,7 @@
         width: 8rem;
         height: auto;
         margin: 0 auto;
-        @include border-radius(100%);
+        @include border-radius(10%);
         @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, .05));
         @include transition(all 0.4s ease);
 
@@ -29,7 +29,7 @@
       margin: 0;
       padding: .5rem;
     }
-
+    
     .home-subtitle {
       font-size: 1rem;
       font-weight: normal;

@@ -2,9 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://localhost:1313/events/cantus/</loc><lastmod>2023-11-27T18:08:03&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2023-11-27T18:08:03&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/events/</loc><lastmod>2023-11-27T18:08:03&#43;01:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/dnd_101/</loc><lastmod>2023-10-18T02:42:58&#43;02:00</lastmod></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2023-10-18T02:42:58&#43;02:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/</loc><lastmod>2023-10-18T02:42:58&#43;02:00</lastmod></url><url>
             <loc>http://localhost:1313/about/</loc><lastmod>2023-10-18T02:42:58&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/events/test/</loc><lastmod>2022-10-27T18:08:03&#43;01:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/</loc></url><url>
             <loc>http://localhost:1313/tags/</loc></url></urlset>

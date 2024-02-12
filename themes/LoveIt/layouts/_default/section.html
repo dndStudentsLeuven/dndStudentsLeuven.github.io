@@ -3,7 +3,7 @@
 {{- end -}}
 
 {{- define "content" -}}
-    <div class="page archive">
+    <div class="page section">
         {{- /* Title */ -}}
         <h2 class="single-title animate__animated animate__pulse animate__faster">
             {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
@@ -20,6 +20,8 @@
             {{- range $pages.PageGroups -}}
                 <h3 class="group-title">{{ .Key }}</h3>
                 {{- range .Pages -}}
+                    {{- .Render "summary" -}}
+                    <!--
                     <article class="archive-item">
                         <a href="{{ .RelPermalink }}" class="archive-item-link">
                             {{- .Title | emojify -}}
@@ -28,6 +30,7 @@
                             {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
                         </span>
                     </article>
+                    -->
                 {{- end -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}

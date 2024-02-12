@@ -1,0 +1,78 @@
+.section {
+    
+    .single-title
+    {
+      font-size: 1.25rem;
+      line-height: 140%;
+    }
+
+    .single {
+        .single-title {
+          margin: 2rem 0 .5rem;
+          font-size: 1.2rem;
+          font-weight: bold;
+          line-height: 140%;
+        }
+    }
+    
+    .content {
+        @include box(vertical);
+        -webkit-line-clamp: 3;
+        margin-top: .3rem;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        @include overflow-wrap(break-word);
+        color: $global-font-secondary-color;
+  
+        [theme=dark] & {
+          color: $global-font-secondary-color-dark;
+        }
+  
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+          font-size: 1rem;
+          line-height: 1.5;
+          display: inline;
+  
+          &::after {
+            content: "\A";
+            white-space: pre;
+          }
+        }
+  
+        h2 {
+          font-size: 1.125rem;
+        }
+  
+        @include link(false, true);
+  
+        b, strong {
+          color: $global-font-secondary-color;
+  
+          [theme=dark] & {
+            color: $global-font-secondary-color-dark;
+          }
+        }
+      }
+    
+    .post-footer {
+        margin-top: .4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: .875rem;
+  
+        @include link(false, false);
+  
+        .post-tags {
+          padding: 0;
+  
+          @include link(true, true);
+        }
+      }
+}
