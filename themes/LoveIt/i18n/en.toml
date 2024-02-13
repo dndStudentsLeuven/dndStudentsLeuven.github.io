@@ -107,6 +107,9 @@ other = "Contents"
 [publishedOnDate]
 other = "Published on {{ .Date }}"
 
+[plannedForDate]
+other = "Planned for {{ .Date }}"
+
 [includedInCategories]
 other = "included in {{ .Categories }}"
 

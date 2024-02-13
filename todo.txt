@@ -1,1 +1,2 @@
--Ensure that events show time of event, not time of publishing. Posts are still fine.
+-Have events page sort by date planned instead of date published
+-Also fix the posts to have correct content, and not be for testing; use drafts for testing
