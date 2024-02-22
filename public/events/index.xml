@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on D&amp;D Students Leuven</title>
+    <link>http://localhost:1313/events/</link>
+    <description>Recent content in Events on D&amp;D Students Leuven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2023 18:08:03 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D&amp;D Cantus</title>
+      <link>http://localhost:1313/events/cantus/</link>
+      <pubDate>Mon, 27 Nov 2023 18:08:03 +0100</pubDate>
+      <guid>http://localhost:1313/events/cantus/</guid>
+      <description>Hey allemaal! In een land hier heel ver vandaan, tussen de mythische Arenbergwouden, staat een kleine taverne genaamd Pius X. Het is een rustige donderdagavond. De taverne is gevuld met avonturiers en reizigers die na een lange dag werken nood hebben aan ontspanning. Er hangt een aangename sfeer in de lucht en het geluid van gelach en geroddel vult de zaal. Tot plots een mysterieus figuur de zaal binnenloopt en uit het niets met een hamer op tafel klopt.</description>
+    </item>
+    <item>
+      <title>D&amp;D Cantus222</title>
+      <link>http://localhost:1313/events/test/</link>
+      <pubDate>Thu, 27 Oct 2022 18:08:03 +0100</pubDate>
+      <guid>http://localhost:1313/events/test/</guid>
+      <description>Hey allemaal! In een land hier heel ver vandaan, tussen de mythische Arenbergwouden, staat een kleine taverne genaamd Pius X. Het is een rustige donderdagavond. De taverne is gevuld met avonturiers en reizigers die na een lange dag werken nood hebben aan ontspanning. Er hangt een aangename sfeer in de lucht en het geluid van gelach en geroddel vult de zaal. Tot plots een mysterieus figuur de zaal binnenloopt en uit het niets met een hamer op tafel klopt.</description>
+    </item>
+  </channel>
+</rss>
