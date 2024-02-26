@@ -42,7 +42,7 @@
         {{- end -}}
 
         {{- if eq .Type "events" -}}
-        {{- with .Site.Params.dateFormat | default "2006-01-02" | .Params.datePlanned.Format -}}
+        {{- with .Site.Params.dateFormat | default "2006-01-02" | .Params.dateOn.Format -}}
             <span class="event-time">
                 {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "plannedForDate" | safeHTML -}}
             </span>
