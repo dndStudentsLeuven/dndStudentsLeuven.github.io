@@ -1,2 +1,4 @@
 -Have events page sort by date planned instead of date published
+-Have events display info such as share links, updated on... inside of the event
+-gitignore /isablerenderer om commit bloat the vermijden
 -Also fix the posts to have correct content, and not be for testing; use drafts for testing

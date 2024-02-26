@@ -4,7 +4,6 @@ date = 2023-10-18T02:42:58+02:00
 draft = false
 author = "sussususususus amogus" 
 authorLink = false
-contents = true
 toc.enable = false
 +++
 
