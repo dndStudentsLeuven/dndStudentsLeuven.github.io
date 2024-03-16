@@ -2,14 +2,18 @@
   .home-profile {
     @include transform(translateY( 16vh));
     padding: 0 0 .5rem;
-    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: left;
 
     .home-avatar {
       padding: .5rem;
 
       img {
         display: inline-block;
-        width: 8rem;
+        width: 16rem;
         height: auto;
         margin: 0 auto;
         @include border-radius(10%);
@@ -29,7 +33,11 @@
       margin: 0;
       padding: .5rem;
     }
-    
+   
+    .home-text {
+      padding: 1rem;
+    }
+
     .home-subtitle {
       font-size: 1rem;
       font-weight: normal;
@@ -39,7 +47,7 @@
 
     .links {
       padding: .5rem;
-      font-size: 1.5rem;
+      font-size: 2rem;
 
       a * {
         vertical-align: text-bottom;
@@ -73,7 +81,7 @@
   }
 
   .home-avatar img {
-    width: 6rem;
+    width: 12rem;
   }
 
   .summary {
@@ -81,6 +89,7 @@
     padding-bottom: .8rem;
     color: $global-font-color;
     border-bottom: 1px dashed $global-border-color;
+    
 
     [theme=dark] & {
       color: $global-font-color-dark;

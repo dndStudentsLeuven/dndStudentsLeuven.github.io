@@ -1,2 +1,0 @@
--Basic .gitignore is present, but it can be refined
--Also fix the posts to have correct content, and not be for testing; use drafts for testing

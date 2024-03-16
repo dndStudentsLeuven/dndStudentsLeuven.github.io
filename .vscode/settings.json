@@ -1,0 +1,6 @@
+{
+    "search.exclude": {
+        "**/_gen": true,
+        "public/": true
+    }
+}

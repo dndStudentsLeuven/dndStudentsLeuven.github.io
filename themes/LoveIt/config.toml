@@ -19,12 +19,28 @@
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
   [[menu.main]]
+    weight = 2
+    identifier = "calender"
+    pre = ""
+    post = ""
+    name = "Calender"
+    url = "/calender/"
+    title = ""
+  [[menu.main]]
     weight = 3
     identifier = "about"
     pre = ""
     post = ""
     name = "Over ons"
     url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "contact"
+    pre = ""
+    post = ""
+    name = "Contact"
+    url = "/contact/"
     title = ""
 
 
