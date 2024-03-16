@@ -1,6 +1,10 @@
 -Basic .gitignore is present, but it can be refined
 -Also fix the posts to have correct content, and not be for testing; use drafts for testing
 
+
+-----Media queries gebruiken om de desktop en mobile site verschillend te houden!!!
+
+
 -(forms integration indien mogelijk)
 -contact page
 -social links 
@@ -8,4 +12,7 @@
 
 -Updated on inkijken (Het haalt de updated on van de laatste git commit date denk ik, staat in single/partial/footer)
 -tab voor google calender toevoegen (hiermee samenzitten met iemand die toegang heeft aan de calender)
+
+
+
 

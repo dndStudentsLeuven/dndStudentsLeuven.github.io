@@ -8,6 +8,7 @@ Hosted with pages, so the main branch is the code that gets converted into HTML,
 To build locally and with drafts, use "hugo serve -D --disableFastRender" and go to localhost:1313.
 After any change make sure the site is still good with draft enabled And disabled. 
 
+-dateOn is belangrijk, daarmee kunnen we controleren wanneer events op de site komen, zonder dateOn kunnen we geen events op de website hebben die nog niet gebeurd zijn
 
 Adding content:
 
