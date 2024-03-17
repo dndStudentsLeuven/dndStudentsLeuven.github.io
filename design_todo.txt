@@ -1,10 +1,8 @@
 -Basic .gitignore is present, but it can be refined
--Also fix the posts to have correct content, and not be for testing; use drafts for testing
-
 
 -----Media queries gebruiken om de desktop en mobile site verschillend te houden!!!
 
-
+-Make the home page upcomming events instead of just all events and sort from nearest to latest
 -(forms integration indien mogelijk)
 -contact page
 -social links 
