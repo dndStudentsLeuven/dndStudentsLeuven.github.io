@@ -1,8 +1,5 @@
 -Basic .gitignore is present, but it can be refined
 
------Media queries gebruiken om de desktop en mobile site verschillend te houden!!!
-
--Make the home page upcomming events instead of just all events and sort from nearest to latest
 -(forms integration indien mogelijk)
 -contact page
 -social links 
@@ -10,7 +7,4 @@
 
 -Updated on inkijken (Het haalt de updated on van de laatste git commit date denk ik, staat in single/partial/footer)
 -tab voor google calender toevoegen (hiermee samenzitten met iemand die toegang heeft aan de calender)
-
-
-
 

@@ -17,11 +17,14 @@
                 </div>
             </div>
         {{- end -}}
-
         {{- /* Posts */ -}}
+    <div style="font-size: 1.25rem; margin-top: 1rem;">Check out our upcoming events: </div>
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
             {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
+
+            {{- /*$pages := where $pages "$pages.dateOn.asTime.Unix" ge "time.Now.Unix"*/ -}}
+            
             {{- if .Site.Params.page.hiddenFromHomePage -}}
                 {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
             {{- else -}}
@@ -32,8 +35,11 @@
             {{- else -}}
                 {{- $pages = .Paginate $pages -}}
             {{- end -}}
-            {{- range ($pages.Pages.ByParam "dateOn").Reverse -}}
-                {{- .Render "summary" -}}
+
+            {{- range ($pages.Pages.ByParam "dateOn") -}}
+                {{ if gt .Params.dateOn.Unix time.Now.Unix }}
+                    {{- .Render "summary" -}}
+                {{- end -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
