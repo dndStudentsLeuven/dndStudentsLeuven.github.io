@@ -44,6 +44,12 @@
   #header-mobile {
     display: block;
   }
+  
+  .home-profile {
+    flex-direction: column;
+    text-align: center !important;
+  }
+
 
   body.blur {
     overflow: hidden;
