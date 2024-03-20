@@ -17,3 +17,5 @@ Afterwards, make sure to fill out the metadata with correct info (dateOn, toc.en
 Add the content of the event
 Now build locally with the -D tag to enable the drafts, check if the new event page is to your liking
 Finally, if the page is good, set the draft tag to false (draft = false).
+
+If the page isnt showing up while building, set the date to be like a week ago, If Hugo sees that the date is in the future it doesnt render the page, sometimes if the date was only ~10 minutes ago hugo just doesnt render it so set it to 2023 or something 

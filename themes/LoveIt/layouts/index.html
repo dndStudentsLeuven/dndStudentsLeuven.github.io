@@ -23,8 +23,6 @@
             {{- /* Paginate */ -}}
             {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
 
-            {{- /*$pages := where $pages "$pages.dateOn.asTime.Unix" ge "time.Now.Unix"*/ -}}
-            
             {{- if .Site.Params.page.hiddenFromHomePage -}}
                 {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
             {{- else -}}

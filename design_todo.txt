@@ -3,7 +3,6 @@
 -(forms integration indien mogelijk)
 -contact page
 -social links 
--belangrijke letters paars maken
 
 -Updated on inkijken (Het haalt de updated on van de laatste git commit date denk ik, staat in single/partial/footer)
 -tab voor google calender toevoegen (hiermee samenzitten met iemand die toegang heeft aan de calender)
