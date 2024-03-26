@@ -45,17 +45,24 @@
     }
 
     .links {
-      padding: .5rem;
-      font-size: 2rem;
-
+      padding: 1rem 0;
+      font-size: 4.25rem;
+      
       a * {
+        @include transition(all 0.2s ease);
         vertical-align: text-bottom;
+        &:hover {
+          position: relative;
+          @include transform(translateY(-.75rem));
+        }
       }
 
       img {
         height: 1.5rem;
         padding: 0 .25rem;
+        
       }
+      
     }
 
     .home-disclaimer {

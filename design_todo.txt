@@ -1,9 +1,13 @@
--Basic .gitignore is present, but it can be refined
-
--(forms integration indien mogelijk)
 -contact page
--social links 
 
--Updated on inkijken (Het haalt de updated on van de laatste git commit date denk ik, staat in single/partial/footer)
--tab voor google calender toevoegen (hiermee samenzitten met iemand die toegang heeft aan de calender)
+-width van calendar
+-about goede icons voor links zoals op profile
+-discord logo is "breder" dan de rest, probeer die spacing egaal te maken
+-over ons mooie fotos
+-calendar is lelijk, maak die mooier!
+-(forms integration indien mogelijk)
+-link naar zichzelf logo svg weet ge
+-delete isablefastrender
+
+-Basic .gitignore is present, but it can be refined
 
