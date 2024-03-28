@@ -1,6 +1,5 @@
 -contact page
 
--width van calendar
 -about goede icons voor links zoals op profile
 -discord logo is "breder" dan de rest, probeer die spacing egaal te maken
 -over ons mooie fotos
