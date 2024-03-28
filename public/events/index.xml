@@ -3,7 +3,17 @@
         <title>All events - D&amp;D Students Leuven</title>
         <link>http://localhost:1313/events/</link>
         <description>All events | D&amp;D Students Leuven</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 Mar 2024 18:08:03 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/events/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Mar 2024 21:00:25 &#43;0100</lastBuildDate><atom:link href="http://localhost:1313/events/" rel="self" type="application/rss+xml" /><item>
+    <title>D&amp;Donderdag 18/04</title>
+    <link>http://localhost:1313/events/dndonderdag1804/</link>
+    <pubDate>Tue, 26 Mar 2024 21:00:25 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/events/dndonderdag1804/</guid>
+    <description><![CDATA[Hey everyone!
+It is almost time for our D&amp;Donderdag: an event we organise every third Thursday of the month where we provide a place for your own group to play, for people to get to know other players or for you to try out being a Dungeon Master yourself!
+This edition will take place Thursday 18/04.]]></description>
+</item>
+<item>
     <title>Cantus session 2: Roll perception!</title>
     <link>http://localhost:1313/events/cantus2/</link>
     <pubDate>Fri, 15 Mar 2024 18:08:03 &#43;0100</pubDate>
@@ -24,6 +34,14 @@ Na een geslaagde eerste sessie aan cantusplezier zetten we onze campaign verder.
 Next Thursday it is time for our first D&amp;Donderdag: an event we organise every third Thursday of the month where we provide a place for your own group to play, for people to get to know other players or for you to try out being a Dungeon Master yourself!
 Our first edition will take place Thursday 21/03 at 19:30 in VHI 00.41.
 Register here!]]></description>
+</item>
+<item>
+    <title>Example_event</title>
+    <link>http://localhost:1313/events/example_event/</link>
+    <pubDate>Fri, 01 Mar 2024 18:36:31 &#43;0100</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/events/example_event/</guid>
+    <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Craft Night: Miniature painting</title>
