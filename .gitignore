@@ -1,3 +1,5 @@
-#ignore isableFastRender and issableFastRender get built, dont need to be tracked
+# these are built by hugo, so they dont need to be tracked
+public/
+resources/_gen/
 isableFastRender/
 issableFastRender/
