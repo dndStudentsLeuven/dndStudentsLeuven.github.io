@@ -8,5 +8,7 @@
 -link naar zichzelf logo svg weet ge
 -delete isablefastrender
 
+-eens vragen welk formaat images best zijn voor de site (jpg? webp?)
+
 -Basic .gitignore is present, but it can be refined
 

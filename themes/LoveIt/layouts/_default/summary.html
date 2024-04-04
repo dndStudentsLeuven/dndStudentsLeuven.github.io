@@ -1,6 +1,6 @@
 {{- $params := .Params | merge .Site.Params.page -}}
 
-<article class="single summary" itemscope itemtype="http://schema.org/Article">
+<article id="test" class="single-summary" itemscope itemtype="http://schema.org/Article">
     {{- /* Featured image */ -}}
     {{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
     {{- with .Resources.GetMatch "featured-image" -}}
@@ -18,6 +18,7 @@
     {{- end -}}
 
     {{- /* Title */ -}}
+    <div>
     <h1 class="single-title" itemprop="name headline">
         <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
     </h1>
@@ -60,7 +61,6 @@
             </span>
         {{- end -}}
     </div>
-
     {{- /* Summary content */ -}}
     <div class="content">
         {{- with .Summary -}}
@@ -83,5 +83,6 @@
                 {{- end -}}
             </div>
         {{- end -}}
+    </div>
     </div>
 </article>
