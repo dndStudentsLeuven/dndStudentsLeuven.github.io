@@ -4,6 +4,8 @@ img {
   }
 
   &.lazyloaded {
+    height: auto;
+    width: auto;
     @include object-fit(contain);
   }
 }
