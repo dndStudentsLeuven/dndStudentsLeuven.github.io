@@ -1,5 +1,5 @@
 -Event visuals links in de summary zetten ipv er boven
--also media query om visual terug boven te zetten op mobile?
+-also media query om visual terug links te zetten op PC? En er ook voor zorgen dat dat mooi schaalt natuurlijk.
 
 -Tekstjes contact page op site zetten
 -in Over ons een Wie is Wie zetten met discord handles enz, dan kunnen mensen ons beter bereiken hopelijk, eventueel ook een paar toffe Foto's van ons als we willen
