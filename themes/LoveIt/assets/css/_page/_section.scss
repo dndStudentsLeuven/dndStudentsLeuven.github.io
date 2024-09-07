@@ -14,6 +14,52 @@
           line-height: 140%;
         }
     }
+  
+  .summary {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+    color: $global-font-color;
+    border-bottom: 1px dashed $global-border-color;
+    
+    .single-title {
+      margin: 0rem 0 .5rem !important;
+    }
+
+    [theme=dark] & {
+      color: $global-font-color-dark;
+      border-bottom: 1.5px dashed $global-border-color-dark;
+    }
+
+    .featured-image-preview {
+      height: 165px;
+      margin: 0.3rem auto;
+      padding-right: 0.3rem;
+      display: flex;
+      justify-content: center;
+      @include transition(transform 0.4s ease);
+
+      a {
+        display: block;
+        height: 100%;
+      }
+
+      img {
+        height: 100%;
+
+        &.lazyloaded {
+          @include object-fit(cover);
+        }
+      }
+
+      &:hover {
+        @include transform(scale(1.01));
+      }
+    }
+  }
     
     .content {
         @include box(vertical);
