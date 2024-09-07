@@ -1,7 +1,7 @@
 .single-summary {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   .featured-image-preview {
-    width: 5rem;
+    width: auto;
   }  
 }
