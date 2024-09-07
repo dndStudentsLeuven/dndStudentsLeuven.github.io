@@ -64,7 +64,16 @@
     flex-direction: column;
     text-align: center !important;
   }
+  
+  .summary {
+    flex-direction: column !important;
+  }
 
+  .featured-image-preview {
+    width: 100% !important;
+    margin: 0 !important;
+    /*padding: 100% 0 0;*/
+  }
 
   body.blur {
     overflow: hidden;

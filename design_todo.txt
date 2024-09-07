@@ -1,5 +1,12 @@
--contact page
+-Event visuals links in de summary zetten ipv er boven
+-also media query om visual terug links te zetten op PC? En er ook voor zorgen dat dat mooi schaalt natuurlijk.
+-Op mobile zien dat evnementen pagina preview images zelfde CSS nemen als de previews op home
 
+-Tekstjes contact page op site zetten
+-in Over ons een Wie is Wie zetten met discord handles enz, dan kunnen mensen ons beter bereiken hopelijk, eventueel ook een paar toffe Foto's van ons als we willen
+
+-bij events: links naar de facebook events & afbeelding bij de events telkens
+-Home tab rechts boven toevoegen
 -about goede icons voor links zoals op profile
 -discord logo is "breder" dan de rest, probeer die spacing egaal te maken
 -over ons mooie fotos

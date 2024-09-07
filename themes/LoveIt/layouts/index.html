@@ -33,12 +33,12 @@
             {{- else -}}
                 {{- $pages = .Paginate $pages -}}
             {{- end -}}
-
             {{- range ($pages.Pages.ByParam "dateOn") -}}
                 {{ if gt .Params.dateOn.Unix time.Now.Unix }}
                     {{- .Render "summary" -}}
                 {{- end -}}
             {{- end -}}
+            {{- partial "paginator.html" . -}}
         {{- end -}}
     </div>
 {{- end -}}
