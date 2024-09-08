@@ -1,3 +1,16 @@
+# determines default content language ["en", "zh-cn", "fr", "pl", ...]
+# 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "nl"
+# language code ["en", "zh-CN", "fr", "pl", ...]
+# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "nl"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+# 语言名称 ["English", "简体中文", "Français", "Polski", ...]
+languageName = "Nederlands"
+# whether to include Chinese/Japanese/Korean
+# 是否包括中日韩文字
+hasCJKLanguage = false
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -238,7 +251,7 @@
       enable = true
       # special amount of posts in each home posts page
       # 主页每页显示文章数量
-      paginate = 6
+      paginate = 0
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
@@ -352,7 +365,7 @@
     [params.page.toc]
       # whether to enable the table of the contents
       # 是否使用目录
-      enable = true
+      enable = false
       # whether to keep the static table of the contents in front of the post
       # 是否保持使用文章前面的静态目录
       keepStatic = false
@@ -630,7 +643,7 @@
     # text strings used for Cookie consent banner
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
-      message = ""
+      message = "heyyy pook"
       dismiss = ""
       link = ""
 
@@ -658,3 +671,162 @@
     # whether to use object-fit-images to be compatible with older browsers
     # 是否使用 object-fit-images 来兼容旧式浏览器
     objectFit = false
+
+# Multilingual
+# 多语言
+[languages]
+  [languages.nl]
+    weight = 1
+    languageCode = "nl"
+    languageName = "Nederlands"
+    hasCJKLanguage = false
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.nl.menu]
+      [[languages.nl.menu.main]]
+        weight = 1
+        identifier = "evenementen"
+        pre = ""
+        post = ""
+        name = "Evenementen"
+        url = "/events/"
+        title = ""
+      [[languages.nl.menu.main]]
+        weight = 2
+        identifier = "calender"
+        pre = ""
+        post = ""
+        name = "Calender"
+        url = "/calender/"
+        title = ""
+      [[languages.nl.menu.main]]
+        weight = 3
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Over ons"
+        url = "/about/"
+        title = ""
+    [languages.nl.params]
+      [languages.nl.params.search]
+        enable = false
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 50
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.nl.params.search.algolia]
+          index = "index.nl"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.nl.params.home]
+        rss = 10
+        [languages.nl.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/DD_1.png"
+          title = ""
+          subtitle = "Dé pagina van TTRPG enthousiasten in Leuven"
+          typeit = false
+          social = true
+          disclaimer = ""
+      [languages.nl.params.social]
+        Instagram = "dndleuven"
+        Facebook = "dndleuven"
+        Discord = "mfHvatS8eE"
+  
+  [languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "evenementen"
+        pre = ""
+        post = ""
+        name = "Events"
+        url = "/events/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 3
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 4
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 5
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 6
+        identifier = "github"
+        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/dillonzq/LoveIt"
+        title = "GitHub"
+    [languages.en.params]
+      [languages.en.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.en.params.social]
+        GitHub = "xxxx"
+        Twitter = "xxxx"
+        Instagram = "xxxx"
+        Facebook = "xxxx"
+        Telegram = "xxxx"
+        Youtubelegacy = "xxxx"
+        Phone = "555-555-555"
+        Email = "xxxx@xxxx.com"
+        RSS = true
+        [languages.en.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
+
