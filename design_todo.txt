@@ -1,9 +1,10 @@
--Event visuals links in de summary zetten ipv er boven
--also media query om visual terug links te zetten op PC? En er ook voor zorgen dat dat mooi schaalt natuurlijk.
--Op mobile zien dat evnementen pagina preview images zelfde CSS nemen als de previews op home
+-2 Talig!!
 
 -Tekstjes contact page op site zetten
 -in Over ons een Wie is Wie zetten met discord handles enz, dan kunnen mensen ons beter bereiken hopelijk, eventueel ook een paar toffe Foto's van ons als we willen
+
+-_summary.scss fixen ipv summary css geven voor page en home
+-Event visuals links in de summary zetten ipv er boven
 
 -bij events: links naar de facebook events & afbeelding bij de events telkens
 -Home tab rechts boven toevoegen
@@ -13,9 +14,4 @@
 -calendar is lelijk, maak die mooier!
 -(forms integration indien mogelijk)
 -link naar zichzelf logo svg weet ge
--delete isablefastrender
-
--eens vragen welk formaat images best zijn voor de site (jpg? webp?)
-
--Basic .gitignore is present, but it can be refined
 
