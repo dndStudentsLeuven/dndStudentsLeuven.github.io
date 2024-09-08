@@ -6,6 +6,7 @@
   padding-bottom: .4rem;
   margin-top: 0.5rem;
   margin-bottom: 0.4rem;
+  align-items: center;
 
   color: #ccc;
   /*color: $global-font-color;*/
@@ -18,12 +19,15 @@
     border-bottom: 1.5px dashed $global-border-color-dark;
   }
 
+  .summary-text {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem
+  }
+
   .featured-image-preview {
     height: 165px;
-    margin: 0.3rem auto;
 
-    padding-right: 0.3rem;
-    padding-left: 0.3rem;
+    padding-left: 0.6rem;
     display: flex;
     justify-content: center;
     @include transition(transform 0.4s ease);
@@ -49,7 +53,7 @@
   .single-title {
     font-size: 1.25rem;
     line-height: 140%;
-    margin: 0.4rem 0;
+    margin: 0.4rem 0 !important;
   }
 
   .content {
