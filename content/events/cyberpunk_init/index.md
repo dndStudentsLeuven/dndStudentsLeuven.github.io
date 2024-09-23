@@ -1,5 +1,5 @@
 +++
-title = 'Call Of Cthulhu introduction night'
+title = 'Cyberpunk initiation night'
 date = 2024-04-01T18:57:42+02:00
 dateOn = 2024-11-27T18:30:00+02:00
 draft = false
