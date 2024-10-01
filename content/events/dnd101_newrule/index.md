@@ -6,4 +6,10 @@ draft = false
 toc.enable = false
 +++
 
-Not yet open for registration.
+Gather round, adventurers! 🐉 The first D&D 101 of this year will revolve around the new 2024 player's handbook ruleset! 📜 Discover the intricacies of the new ruleset, as well as what has stayed the same in comparison to the previous edition.
+
+The best way to learn is by doing, so after a short introduction we'll play a oneshot using the new ruleset! There is also the possibility to try your hand at DMing this new ruleset.
+
+Registrations for both players and DM's are required. We hope to see you there!
+
+[**Register Here!**](https://forms.gle/z59tNsKSHKfxDLfi6)
