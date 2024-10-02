@@ -1,8 +1,8 @@
 +++
-title = 'Cantus session 2: Roll perception!'
+title = 'EXAMPLE Cantus session 2: Roll perception!'
 date = 2024-03-15T18:08:03+01:00
 draft = true
-dateOn = 2026-12-18T18:08:03+01:00
+dateOn = 2026-04-02T18:08:03+01:00
 toc.enable = false
 
 [[resources]]
@@ -40,4 +40,4 @@ Inschrijvingen openen op woensdag 13 maart om 18u.
 
 [**Schrijf nu in!**](https://forms.gle/ui9fPPTCkV5sxyp88)
 
-[*Feel free to message us on discord if you do not know exactly what a cantus is, or if you're unsure you will be able to enjoy it in Dutch, we're happy to provide you with more information.] 
+[*Feel free to message us on discord if you do not know exactly what a cantus is, or if you're unsure you will be able to enjoy it in Dutch, we're happy to provide you with more information.]

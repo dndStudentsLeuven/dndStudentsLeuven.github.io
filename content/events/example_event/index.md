@@ -1,15 +1,15 @@
 +++
-title = 'Dit is de naam op de site!'
+title = 'EXAMPLE Dit is de naam op de site!'
 date = 2024-02-01T18:36:31+01:00
-dateOn = 2026-04-02T18:36:31+01:00
+dateOn = 2026-06-02T18:36:31+01:00
 draft = true
 toc.enable = false
 
 [[resources]]
 name = "featured-image"
 src = "featured-image.webp"
-
 +++
+
 Draft example event...
 
 Deze file **moet** `index.md` noemen.

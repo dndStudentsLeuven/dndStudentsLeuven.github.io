@@ -1,6 +1,8 @@
 {{- $params := .Params | merge .Site.Params.page -}}
 
+<a href="{{ $.RelPermalink }}">
 <article class="single summary" itemscope itemtype="http://schema.org/Article">
+    
     {{- /* Featured image */ -}}
     {{- $image := $params.featuredimagepreview | default $params.featuredimage -}}
     {{- with .Resources.GetMatch "featured-image" -}}
@@ -11,16 +13,15 @@
     {{- end -}}
     {{- with $image -}}
         <div class="featured-image-preview">
-            <a href="{{ $.RelPermalink }}">
                 {{- dict "Src" . "Title" $.Description "Resources" $.Resources | partial "plugin/img.html" -}}
-            </a>
+            
         </div>
     {{- end -}}
 
     {{- /* Title */ -}}
     <div class="summary-text">
     <h1 class="single-title" itemprop="name headline">
-        <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
+        {{ .Title | emojify }}
     </h1>
 
     {{- /* Meta */ -}}
@@ -72,7 +73,7 @@
 
     {{- /* Footer */ -}}
     <div class="post-footer">
-        <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
+        
         {{- with .Params.tags -}}
             <div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;
@@ -86,3 +87,4 @@
     </div>
     </div>
 </article>
+</a>
