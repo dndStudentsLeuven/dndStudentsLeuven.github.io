@@ -13,6 +13,11 @@
 
   border: solid;
   border-radius: 10px;
+  
+  @include transition(transform 0.4s ease);
+  &:hover {
+    @include transform(scale(1.01));
+  }
 
   [theme=dark] & {
     color: $global-font-color-dark;
@@ -46,7 +51,7 @@
     }
 
     &:hover {
-      @include transform(scale(1.01));
+      @include transform(scale(1.02));
     }
   }
 
