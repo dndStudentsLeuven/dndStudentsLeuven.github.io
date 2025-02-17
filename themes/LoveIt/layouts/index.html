@@ -31,7 +31,7 @@
             {{- with $posts.paginate | default .Site.Params.paginate -}}
                 {{- $pages = $.Paginate $pages . -}}
             {{- else -}}
-                {{- $pages = .Paginate $pages -}}
+                {{- $pages = .Paginate $pages 20 -}}
             {{- end -}}
             {{- range ($pages.Pages.ByParam "dateOn") -}}
                 {{ if gt .Params.dateOn.Unix time.Now.Unix }}

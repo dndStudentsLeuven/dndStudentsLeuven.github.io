@@ -10,12 +10,13 @@
         </h2>
 
         {{- /* Paginate */ -}}
-        {{- if .Pages -}}
-            {{- $pages := .Pages.GroupByParamDate "dateOn" "2006" -}}
+        {{- if .RegularPages -}}
+            {{- $pages := .RegularPages.GroupByParamDate "dateOn" "2006" -}}
             {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
                 {{- $pages = $.Paginate $pages . -}}
             {{- else -}}
                 {{- $pages = .Paginate $pages -}}
+
             {{- end -}}
             {{- range $pages.PageGroups -}}
                 <h3 class="group-title">{{ .Key }}</h3>
