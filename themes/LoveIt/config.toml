@@ -229,7 +229,7 @@ hasCJKLanguage = false
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "/images/DD_1.png"
+      avatarURL = "/images/DND-LVN-ZWART.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = "Welkom bij D&D Students Leuven"
@@ -259,6 +259,7 @@ hasCJKLanguage = false
     Linkedin = ""
     Twitter = ""
     Instagram = "dndleuven"
+    Discord = "mfHvatS8eE"
     Facebook = "dndleuven"
     Telegram = ""
     Medium = ""
@@ -317,7 +318,6 @@ hasCJKLanguage = false
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Discord = "mfHvatS8eE"
     Lichess = ""
     ORCID = ""
     Pleroma = ""
@@ -725,7 +725,7 @@ hasCJKLanguage = false
         [languages.nl.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/DD_1.png"
+          avatarURL = "/images/DND-LVN-ZWART.png"
           title = ""
           subtitle = "Dé pagina van TTRPG enthousiasten in Leuven"
           typeit = false
@@ -733,8 +733,8 @@ hasCJKLanguage = false
           disclaimer = ""
       [languages.nl.params.social]
         Instagram = "dndleuven"
-        Facebook = "dndleuven"
         Discord = "mfHvatS8eE"
+        Facebook = "dndleuven"
   
   [languages.en]
     weight = 2
@@ -786,7 +786,7 @@ hasCJKLanguage = false
         [languages.en.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/DND-LVN-ZWART.png"
           title = ""
           subtitle = "A Clean, Elegant but Advanced Hugo Theme"
           typeit = true
@@ -794,6 +794,6 @@ hasCJKLanguage = false
           disclaimer = ""
       [languages.en.params.social]
         Instagram = "dndleuven"
-        Facebook = "dndleuven"
         Discord = "mfHvatS8eE"
+        Facebook = "dndleuven"
 

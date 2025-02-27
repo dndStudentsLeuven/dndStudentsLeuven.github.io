@@ -24,7 +24,7 @@ twitter:
 
 # 004: Instagram
 instagram:
-  Weight: 4
+  Weight: 1
   Prefix: https://www.instagram.com/
   Title: Instagram
   Icon:
@@ -494,7 +494,7 @@ bilibili:
 
 # 064: Discord Server Invite Link
 discord:
-  Weight: 64
+  Weight: 2
   Prefix: https://discord.gg/
   Title: Discord
   Icon:
