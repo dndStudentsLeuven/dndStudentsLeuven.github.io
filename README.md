@@ -12,7 +12,7 @@ After any change make sure the site is still good with draft enabled And disable
 
 Adding content:
 
-To add an event with name example_event, run "hugo new content events/example_event/index.md"
+To add an event with name example_event, add a folder and index.md like the other events, or run "hugo new content events/example_event/index.md"
 Afterwards, make sure to fill out the metadata with correct info (dateOn, etc) as the command doesn't autofill these.
 Add the content of the event
 Now build locally with the -D tag to enable the drafts, check if the new event page is to your liking
