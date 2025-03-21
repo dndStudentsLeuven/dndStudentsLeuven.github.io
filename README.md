@@ -1,4 +1,4 @@
-Site van dndStudentsLeuven
+Site van dnd Leuven
 
 Static HTML site built with Hugo ,https://gohugo.io/documentation/, based on the https://hugoloveit.com/ theme
 Check their docs for more info

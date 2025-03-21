@@ -19,32 +19,32 @@ hasCJKLanguage = false
 [menu]
   [[menu.main]]
     weight = 1
-    identifier = "evenementen"
+    identifier = "events"
     # you can add extra information before the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
     post = ""
-    name = "Evenementen"
+    name = "Events"
     url = "/events/"
     # title will be shown when you hover on this menu link
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "calender"
+    identifier = "calendar"
     pre = ""
     post = ""
-    name = "Calender"
-    url = "/calender/"
+    name = "Calendar"
+    url = "/calendar/"
     title = ""
   [[menu.main]]
     weight = 3
     identifier = "about"
     pre = ""
     post = ""
-    name = "Over ons"
+    name = "About us"
     url = "/about/"
     title = ""
 
@@ -66,10 +66,10 @@ hasCJKLanguage = false
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "D&D Students Leuven"
+  title = "D&D Leuven"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "D&D Students Leuven"
+  description = "D&D Leuven"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -91,7 +91,7 @@ hasCJKLanguage = false
       logo = ""
       # title name
       # 标题名称
-      name = "D&D Students Leuven"
+      name = "D&D Leuven"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -108,7 +108,7 @@ hasCJKLanguage = false
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = "D&D Students Leuven"
+    custom = "D&D Leuven"
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -159,7 +159,7 @@ hasCJKLanguage = false
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "D&D Students Leuven"
+    title = "D&D Leuven"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -224,10 +224,10 @@ hasCJKLanguage = false
       avatarURL = "/images/DND-LVN-ZWART.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "Welkom bij D&D Students Leuven"
+      title = "Welcome to D&D Leuven"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "Dé pagina van TTRPG enthousiasten in Leuven"
+      subtitle = "The page for TTRPG enthousiasts in Leuven"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = false
