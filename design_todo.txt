@@ -1,4 +1,6 @@
--2 Talig!!
+-2 Talig eigenlijk gewoon weg doen, voor nu
+
+wit logo voor dark mode, zwarte calender, famicon, zoom op 1080p zodat er goed uit ziet, 125% ofz,
 
 -Tekstjes contact page op site zetten
 -in Over ons een Wie is Wie zetten met discord handles enz, dan kunnen mensen ons beter bereiken hopelijk, eventueel ook een paar toffe Foto's van ons als we willen

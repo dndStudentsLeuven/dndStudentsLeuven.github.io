@@ -47,14 +47,6 @@ hasCJKLanguage = false
     name = "Over ons"
     url = "/about/"
     title = ""
-  [[menu.main]]
-    weight = 4
-    identifier = "contact"
-    pre = ""
-    post = ""
-    name = "Contact"
-    url = "/contact/"
-    title = ""
 
 
 [params]
@@ -326,7 +318,7 @@ hasCJKLanguage = false
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = ""
+    Email = "dndleuven@gmail.com"
     Phone = ""
     RSS = ""
 

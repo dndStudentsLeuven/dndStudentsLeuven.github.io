@@ -573,7 +573,7 @@ phone:
 email:
   Weight: 99
   Template: mailto:%v
-  Title: Email
+  Title: dndleuven@gmail.com
   Icon:
     Class: far fa-envelope fa-fw
 
