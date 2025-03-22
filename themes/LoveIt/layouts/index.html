@@ -18,7 +18,7 @@
             </div>
         {{- end -}}
         {{- /* Posts */ -}}
-    <div style="font-size: 1.25rem; margin-top: 1rem;">Check out our upcoming events: </div>
+    <div style="font-size: 1.25rem; margin-top: 1rem;">Check our upcoming events: </div>
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
             {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
