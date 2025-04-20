@@ -1,6 +1,6 @@
 Site van dnd Leuven
 
-Static HTML site built with Hugo ,https://gohugo.io/documentation/, based on the https://hugoloveit.com/ theme
+Static HTML site built with Hugo 0.123.6, *Hugo version is pretty important* ,https://gohugo.io/documentation/, based on the https://hugoloveit.com/ theme
 Check their docs for more info
 
 Hosted with pages, so the main branch is the code that gets converted into HTML, be careful pushing to the main branch as this is what people see when they get on the site.
