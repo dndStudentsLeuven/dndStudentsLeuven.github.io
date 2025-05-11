@@ -14,4 +14,4 @@ So we welcome you on Thursay 05/22 to join us for some games!
 
 See you all there!
 
-Not yet open for registration.
+[**Register here!**](https://docs.google.com/forms/d/e/1FAIpQLSft9UgwgSKVrmMnz8qfZOwVeOh4AOU5l-0bdXa50Ut2lqQFcQ/viewform?usp=dialog)
