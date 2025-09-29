@@ -6,8 +6,10 @@ draft = false
 toc.enable = false
 +++
 
-During our workshop we'll teach you how to paint a miniature that you'll be able to take home by the end of the evening which you can proudly display wherever and to whoever you want 🤩 !
+Our craft night is in sight! The perfect opportunity to learn how to paint your very own miniatures for D&D, Pathfinder, Warhammer or any miniature based tabletop games. 
+Don't be scared to make any happy accidents as you will be provided with everything needed to complete your (first) miniature. This includes the needed brushes, paint and and demonstration of some basic techniques. 
 
-The techniques we'll be covering are: Basecoating, using Washes and Drybrushing. For those who are feeling adventurous we also offer optional instructions on edge highlights, layering and glazing ✨ .
+The event will take place the Monday 6/10 at 8pm, location MSI 02.15. 
+registrations close Friday 3/10. (So we have time to print the minis)
 
-Registrations not yet open!
+[**Make sure to register quickly!**](https://docs.google.com/forms/d/e/1FAIpQLSdiOOcc5wBZ8Srbwlc_TNJ6eSCXC4kXjOZztturfRjs_WpcpQ/viewform?usp=sharing&ouid=104010849173354376911)
