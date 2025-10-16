@@ -21,7 +21,7 @@ Waar: Alma 3
 
 Deuren: 20h00, Io Vivat: 20h30
 
-Bier/Sangria: €12/14 (lid/niet-lid) Water/Eigen drank: €5/6 (lid/niet-lid)
+Bier/Sangria: €12/14 (lid/niet-lid) Water: €5/6 (lid/niet-lid)
 
 Liedboek: Leuvens Liedboek
 
