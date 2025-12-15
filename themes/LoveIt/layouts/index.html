@@ -2,42 +2,43 @@
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
-
-    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
-        {{- /* Profile */ -}}
-        {{- if ne $profile.enable false -}}
+    <div style="background: linear-gradient(#f8f8f8, #BA75BD);">
+        
+        <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
             {{- partial "home/profile.html" . -}}
-        {{- end -}}
-
-        {{- /* Content */ -}}
-        {{- if .Content -}}
-            <div class="single">
-                <div class="content" id="content">
-                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                <!--
+                {{- /* Content */ -}}
+                {{- if .Content -}}
+                <div class="single">
+                    <div class="content" id="content">
+                        {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                    </div>
                 </div>
-            </div>
-        {{- end -}}
-        {{- /* Posts */ -}}
-    <div style="font-size: 1.25rem; margin-top: 1rem;">Check our upcoming events out: </div>
-        {{- if ne $posts.enable false | and .Site.RegularPages -}}
-            {{- /* Paginate */ -}}
-            {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
-
-            {{- if .Site.Params.page.hiddenFromHomePage -}}
-                {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
-            {{- else -}}
-                {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
-            {{- end -}}
-            {{- with $posts.paginate | default .Site.Params.paginate -}}
-                {{- $pages = $.Paginate $pages . -}}
-            {{- else -}}
-                {{- $pages = .Paginate $pages 999 -}}
-            {{- end -}}
-            {{- range ($pages.Pages.ByParam "dateOn") -}}
-                {{ if gt .Params.dateOn.Unix time.Now.Unix }}
-                    {{- .Render "summary" -}}
                 {{- end -}}
-            {{- end -}}
-        {{- end -}}
+                -->
+            <div style="font-size: 1.25rem; margin-top: 1rem;">Check our upcoming events out: </div>
+            <div style="padding: 0rem 0rem 1rem;">
+                {{- if ne $posts.enable false | and .Site.RegularPages -}}
+                {{- /* Paginate */ -}}
+                {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
+                
+                {{- if .Site.Params.page.hiddenFromHomePage -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+                {{- else -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
+                {{- end -}}
+                {{- with $posts.paginate | default .Site.Params.paginate -}}
+                {{- $pages = $.Paginate $pages . -}}
+                {{- else -}}
+                {{- $pages = .Paginate $pages 999 -}}
+                {{- end -}}
+                {{- range ($pages.Pages.ByParam "dateOn") -}}
+                {{ if gt .Params.dateOn.Unix time.Now.Unix }}
+                {{- .Render "summary" -}}
+                {{- end -}}
+                {{- end -}}
+                {{- end -}}
+            </div>
+        </div>
     </div>
 {{- end -}}

@@ -12,7 +12,8 @@
   /*color: $global-font-color;*/
 
   border: solid;
-  border-radius: 10px;
+  border-radius: 12px;
+  background-color: #fff;
   
   @include transition(transform 0.4s ease);
   &:hover {

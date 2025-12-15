@@ -8,7 +8,7 @@ contents = false
 toc.enable = false
 +++
 
-At D&D Leuven we're on a mission to make the world of tabletop role-playing games (TTRPGs) more accessible to students in Leuven and to foster connections among enthusiasts. Whether you're a seasoned game master, a passionate player, or just dipping your toes into the realm of TTRPGs, there's a place for you here.
+At D&D Leuven we're on a mission to make the world of tabletop role-playing games (TTRPGs) more accessible in Leuven and to foster connections among enthusiasts. Whether you're a seasoned game master, a passionate player, or just dipping your toes into the realm of TTRPGs, there's a place for you here.
 
 Our community organizes a range of activities tailored to every kind of adventurer:
 - D&D 101: Designed for beginners, our D&D 101 sessions offer a crash course on the game system. Afterwards, we dive straight into the action with a thrilling one-shot adventure.
