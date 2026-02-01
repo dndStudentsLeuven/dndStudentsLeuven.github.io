@@ -1,5 +1,5 @@
 +++
-title = 'Mighty Nein S2 Watch party'
+title = 'Mighty Nein Watch party'
 date = 2026-01-01T18:57:42+02:00
 dateOn = 2026-02-09T18:30:00+02:00
 draft = false
