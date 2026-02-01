@@ -1,15 +1,20 @@
 +++
-title = 'D&D101: Learn to play!'
-date = 2025-01-01T18:57:42+02:00
-dateOn = 2025-09-30T18:30:00+02:00
+title = 'Mighty Nein S2 Watch party'
+date = 2026-01-01T18:57:42+02:00
+dateOn = 2026-02-09T18:30:00+02:00
 draft = false
 toc.enable = false
 +++
 
-Gather 'round, adventurers! 
+The Mighty Nein screenings return!
+We’re restarting Season 1 from episode 1 so everyone can jump in. We’ll watch the season together in two sittings of 4 episodes each.
 
-What better opportunity to get into Dungeons and Dragons then the beginning of the year. The best way to learn is by doing, so after a short introduction into how to play the game we'll play a fun oneshot together. New fans or experienced veterans welcome!
+📅 When: 9 & 16 February — 19:00
 
-We welcome you on 19h at JHP 00.46.
+📍 Where: [JHP 00.46](https://maps.app.goo.gl/xXoPagP1gcb3998cA)
 
-[**Register here!**](https://forms.gle/5UEbaS7p9PzvZBHy7)
+🛋 Bring your blankets, pillows, or anything comfy to make it a true Critter night.
+
+🧁 Cupcakes included — Jester approves.
+
+📝 [**Sign-up here!**](https://available-jodhpur-f7e.notion.site/2f716159981580e4978ad97185cc5ac0?pvs=105)
