@@ -1,23 +1,20 @@
 +++
-title = 'D&Dinsdag'
-date = 2024-04-01T18:57:42+02:00
-dateOn = 2025-11-18T18:30:00+02:00
+title = 'Mighty Nein Watch party'
+date = 2026-01-01T18:57:42+02:00
+dateOn = 2026-02-16T18:30:00+02:00
 draft = false
 toc.enable = false
 +++
 
-Ready for adventure? Our D&Dinsdag one-shot evenings are the perfect way to dive into an exciting Dungeons & Dragons story — without the long-term campaign commitment!
+The Mighty Nein screenings return!
+We’re restarting Season 1 from episode 1 so everyone can jump in. We’ll watch the season together in two sittings of 4 episodes each.
 
-New players and seasoned DMs are equally welcome at our events. Do you already have a party assembled and don’t need a group or DM, and are just looking for a space to play? You’re more than welcome to join us too! Don’t forget to register using the link below.
+📅 When: 9 & 16 February — 19:00
 
-📅 When: 18th of November at 19h
+📍 Where: [JHP 00.46](https://maps.app.goo.gl/xXoPagP1gcb3998cA)
 
-📍 Where: QDV 140 (**It’s a different campus: Arenberg 3**)
+🛋 Bring your blankets, pillows, or anything comfy to make it a true Critter night.
 
-🎟️ What to bring: Some writing utensils and dice (we have spare ones if you don’t have dice)
+🧁 Cupcakes included — Jester approves.
 
-✒️ Registrations: For both players and DMs through the website in bio
-
-New characters, new stories, and new friends await. Will you be the hero of the evening? Join us, roll initiative, and find out!
-
-[**Register Here!**](https://docs.google.com/forms/d/e/1FAIpQLSfnmcBgqQxd1gsnAzdUl3hNn2Dwjo3oN1YqA5Of78fI8M_XHw/viewform?usp=publish-editor)
+📝 [**Sign-up here!**](https://available-jodhpur-f7e.notion.site/2f716159981580e4978ad97185cc5ac0?pvs=105)
