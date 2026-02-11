@@ -6,8 +6,30 @@ draft = false
 toc.enable = false
 +++
 
-Join us for a D&D 101 evening where you can learn the basics of D&D or just join a fun game! Whether you are a seasoned adventurer or a complete beginner, you are welcome at this event.
+🎲 D&D 101 – First Play Session of the Semester!
 
-The best way to learn is by doing, so after a short introduction we'll play a fun oneshot! There is also the possibility to try your hand at DM.
+Never played D&D before? This is your moment.
+TTRPG veteran? Welcome back to the table.
 
-More info will follow soon.
+We’re kicking off the semester with a beginner-friendly D&D 101 session — the perfect way to jump into the world of Dungeons & Dragons.
+
+✨ Simplified character sheets
+
+✨ Two short adventures in one night
+
+✨ Guided by experienced DMs
+
+📍 Where: JHP 00.46
+
+📅 When: 19 February - 19:00
+
+✏️ Bring: Writing utensils & dice
+
+(No dice? We’ve got spares.)
+
+We provide the DM, character sheets, the location, and everything you need to play.
+All you have to do is sign up.
+
+Let’s roll some dice.
+
+📝 [**Register here!**](https://available-jodhpur-f7e.notion.site/30416159981581f8b19ccef77efb4bc2)
