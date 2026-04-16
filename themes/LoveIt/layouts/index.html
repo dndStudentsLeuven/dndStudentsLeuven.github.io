@@ -2,7 +2,8 @@
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
-    <div style="background: linear-gradient(#f8f8f8, #BA75BD);">
+    <div style="display: flex; flex-direction: column; width: auto; align-items: center;">
+    <div class="gradient" style="width:100%; background: linear-gradient(#f8f8f8, #BA75BD);">
         
         <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
             {{- partial "home/profile.html" . -}}
@@ -17,7 +18,7 @@
                 {{- end -}}
                 -->
             <div style="font-size: 1.25rem; margin-top: 1rem;">Check our upcoming events out: </div>
-            <div style="padding: 0rem 0rem 1rem;">
+            <div style="padding: 0rem 0rem 4rem;">
                 {{- if ne $posts.enable false | and .Site.RegularPages -}}
                 {{- /* Paginate */ -}}
                 {{- $pages := where .Site.RegularPages "Type" "in" (slice "posts" "events") -}}
@@ -38,7 +39,10 @@
                 {{- .Render "summary" -}}
                 {{- end -}}
                 {{- end -}}
+                {{- partial "paginator.html" . -}}
             </div>
         </div>
+    </div>
+    <b style="margin: 0 auto">and now a word from our sponsors</b>
     </div>
 {{- end -}}
