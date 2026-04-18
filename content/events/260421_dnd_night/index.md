@@ -12,6 +12,10 @@ For our DnD Nights we reserve a room where everyone is welcome to play D&D. It d
 
 So we welcome you to join us for some games!
 
-See you all there!
+📅 When: 21th of April at 19h
 
-More info will follow soon.
+📍 Where: This session will take place at **QDV 01.100** instead of our usual JHP location.
+
+🎟️ What to bring: Some writing utensils and dice (we have spare ones if you don’t have dice)
+
+[**Register here!**](https://available-jodhpur-f7e.notion.site/30416159981581f8b19ccef77efb4bc2)
