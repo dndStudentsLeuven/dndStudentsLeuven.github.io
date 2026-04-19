@@ -3,9 +3,18 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
     <div style="display: flex; flex-direction: column; width: auto; align-items: center;">
-    <div class="gradient" style="width:100%; background: linear-gradient(#f8f8f8, #BA75BD);">
+    <div class="gradient" style="display: flex; flex-direction: row; width:100%; background: linear-gradient(#f8f8f8, #BA75BD);">
+            <img src="/images/left_banner.svg" alt="left banner" />
+            <img src="/images/left_banner.svg" alt="left banner" style="order:3" />
+            {{- /* 
+            {{ readFile "/images/left_banner.svg" | safeHTML }}
+            */ -}}
+            
+            {{- /* 
+            {{- dict "Src" "/images/left_banner.svg" | partial "plugin/img.html" -}}
+            */ -}}
         
-        <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+        <div style="" class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
             {{- partial "home/profile.html" . -}}
                 <!--
                 {{- /* Content */ -}}
