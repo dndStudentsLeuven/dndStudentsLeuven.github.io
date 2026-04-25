@@ -98,3 +98,11 @@
   -webkit-mask: var(--mask);
           mask: var(--mask);
 }
+
+.gradient-new {
+  background: linear-gradient(#f8f8f8, #BA75BD);
+
+  [theme=dark] & {
+        background: linear-gradient(#080808, #5c2b5e);
+      }
+}
