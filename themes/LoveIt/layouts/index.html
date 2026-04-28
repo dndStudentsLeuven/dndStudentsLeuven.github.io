@@ -3,9 +3,9 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
     <div style="display: flex; flex-direction: column; width: auto; align-items: center;">
-    <div class="gradient-new" style="display: flex; flex-direction: row; width:100%;">
-            <img src="/images/left_banner.svg" alt="left banner" style="order:0" />
-            <img src="/images/left_banner.svg" alt="left banner" style="order:3" />
+    <div class="gradient" style="display: flex; flex-direction: row; width:100%; background: linear-gradient(#f8f8f8, #BA75BD); position:relative">
+            <img src="/images/left_banner.svg" alt="left banner art " style="order:0; max-width: 20%; object-fit:fill; align-self:flex-start; padding-top: var(--header-height)" />
+            <img src="/images/left_banner.svg" alt="right banner art" style="order:2; max-width: 20%; object-fit:fill; align-self:flex-start; padding-top: var(--header-height)" />
             {{- /* 
             {{ readFile "/images/left_banner.svg" | safeHTML }}
             */ -}}
