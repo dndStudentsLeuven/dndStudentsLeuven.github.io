@@ -8,7 +8,7 @@ toc.enable = false
 
 Ready for adventure, but short on time?
 
-Our D&Donderdag one shot evenings are the perfect way to jump into an exciting Dungeons & Dragons story without the long campaign commitment!
+Our D&D Nights are the perfect way to jump into an exciting Dungeons & Dragons story without the long campaign commitment!
 
 Each month, we host a fresh one shot adventure where all levels of experience are welcome, whether you're a seasoned player or rolling your first d20. We welcome both players and dungeon masters alike! ⚔️
 
