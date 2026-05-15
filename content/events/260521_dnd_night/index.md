@@ -6,12 +6,20 @@ draft = false
 toc.enable = false
 +++
 
-Hey there adventurer,
+Ready for adventure, but short on time?
 
-For our DnD Nights we reserve a room where everyone is welcome to play D&D. It doesn't matter if you have our own group already or are looking for one, whether you are an experienced player or more of a newbie in the world of D&D. If you want you can also register as a Dungeon Master and then we will fix you up with a group.
+Our D&Donderdag one shot evenings are the perfect way to jump into an exciting Dungeons & Dragons story without the long campaign commitment!
 
-So we welcome you to join us for some games!
+Each month, we host a fresh one shot adventure where all levels of experience are welcome, whether you're a seasoned player or rolling your first d20. We welcome both players and dungeon masters alike! ⚔️
 
-See you all there!
+Do you already have a party assembled and don't need a group or DM, and are just looking for a space to play? You're more than welcome to join us too!
 
-More info will follow soon.
+📅 When: 21st of May at 19:00
+
+📍 Where: JHP 00.46
+
+🎟️ What to bring: Some writing utensils, dice (we have spare ones if you don't have dice)
+
+✒️ [**Register here!**](https://forms.gle/vx9HSgKbSM6uMPm59)
+
+New characters, new stories, and new friends await. Will you be the hero of the evening? Join us, roll initiative, and find out! 🎉
