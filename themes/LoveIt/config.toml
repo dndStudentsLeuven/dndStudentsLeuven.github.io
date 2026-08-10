@@ -108,7 +108,7 @@ hasCJKLanguage = false
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = "D&D Leuven"
+    custom = "D&D Leuven is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
