@@ -1,7 +1,7 @@
 +++
-title = 'Dit is hoe een 2de event eruit ziet;'
+title = 'Folders beginnend met een . (punt, fullstop, period,...) worden niet gebruikt!'
 date = 2023-01-01T18:36:31+01:00
-dateOn = 2099-12-02T18:36:31+01:00
+dateOn = 2026-12-02T18:36:31+01:00
 draft = true
 toc.enable = false
 
@@ -9,6 +9,8 @@ toc.enable = false
 name = "featured-image"
 src = "featured-image.webp"
 +++
+
+Folders beginnend met een . (punt, fullstop, period,...) worden niet gebruikt!
 
 test
 
