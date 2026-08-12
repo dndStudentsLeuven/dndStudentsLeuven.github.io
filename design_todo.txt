@@ -18,3 +18,4 @@ wit logo voor dark mode, zwarte calender, famicon, zoom op 1080p zodat er goed u
 -link naar zichzelf logo svg weet ge
 
 - media gebruiken om de main_page grid the laten scalen terug
+- fix koord op bottle

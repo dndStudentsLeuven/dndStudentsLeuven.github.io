@@ -91,18 +91,32 @@
   }
 }
 
-.gradient {
+.home-grid {
+  display:grid;
+  grid-template-columns: 1fr 56% 1fr;
+  align-items: stretch;
+  width:100%;
+  position:relative;
+
+  background: linear-gradient($home-gradient-top-color, $home-gradient-bottom-color);
+  [theme=dark] & {
+        background: linear-gradient($home-gradient-top-color-dark, $home-gradient-bottom-color-dark);
+      }
+}
+
+.banner {
+  max-width:none;
+  object-fit:cover;
+  position:absolute;
+  width: 100%;
+  height: auto;
+  padding-top: var(--header-height)
+}
+
+.home-wave {
   --mask:
     radial-gradient(39.37px at 50% calc(100% - 55.5px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
     radial-gradient(39.37px at 50% calc(100% + 25.5px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);
-}
-
-.gradient-new {
-  background: linear-gradient(#f8f8f8, #BA75BD);
-
-  [theme=dark] & {
-        background: linear-gradient(#080808, #5c2b5e);
-      }
 }

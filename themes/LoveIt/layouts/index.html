@@ -3,12 +3,12 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
     <div style="display: flex; flex-direction: column; width: auto; align-items: center;">
-    <div class="gradient" style="display:grid; grid-template-columns: 1fr 56% 1fr; align-items: stretch; width:100%; background: linear-gradient(#f8f8f8, #BA75BD); position:relative">
+    <div class="home-wave home-grid">
         <aside style="order:0; position: relative; overflow: hidden">
-            <img src="/images/left_banner.svg" alt="left banner art " style="max-width:none; object-fit:cover; position:absolute; right:0; width: 100%; height: auto; padding-top: var(--header-height)" />
+            <img class="banner" src="/images/left_banner.svg" alt="left banner art " style="right:0;" />
         </aside>
         <aside style="order:2; position: relative; overflow: hidden">
-            <img src="/images/left_banner.svg" alt="right banner art" style="max-width:none; object-fit:cover; position:absolute; left:0; width: 100%; height: auto; padding-top: var(--header-height)" />
+            <img class="banner" src="/images/left_banner.svg" alt="right banner art" style="left:0;" />
         </aside>
             {{- /*
             */ -}}
@@ -20,7 +20,7 @@
             {{- dict "Src" "/images/left_banner.svg" | partial "plugin/img.html" -}}
             */ -}}
         
-        <div style="" class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+        <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
             {{- partial "home/profile.html" . -}}
                 <!--
                 {{- /* Content */ -}}
