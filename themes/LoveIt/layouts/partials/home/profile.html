@@ -13,7 +13,12 @@
                     {{- $url = .RelPermalink -}}
                 {{- end -}}
                 <a href="{{ $url }}"{{ with .Title | default .Name }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                    {{- /*
                     {{- dict "Src" $avatar | partial "plugin/img.html" -}}
+                    */ -}} 
+                    <img id="profile-avatar-light" class="" src="/images/DND-LVN-ZWART.png" alt="D&D Leuven logo" style="" />
+                    <img id="profile-avatar-dark" class="" src="/images/DND-LVN-WIT.svg" alt="D&D Leuven logo" style="" />
+
                 </a>
             {{- else -}}
                 {{- dict "Src" $avatar | partial "plugin/img.html" -}}

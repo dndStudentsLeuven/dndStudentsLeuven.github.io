@@ -1,4 +1,4 @@
-#calender-white {
+#calender-light {
   [theme=dark] & {
     display: none
   }
@@ -11,6 +11,19 @@
   }
   width:100%;
   display: none
+}
+
+#profile-avatar-light {
+  [theme=dark] & {
+    display: none;
+  }
+}
+
+#profile-avatar-dark {
+  [theme=dark] & {
+    display: inline-block;
+  }
+  display: none;
 }
 
 @media only screen and (max-width: 1440px) {
