@@ -32,7 +32,7 @@ Je kan je inschrijven om in een groep gezet te worden, of je kan registreren als
 
 Wat breng je mee: Dobbelstenen (als je ze hebt!) en een potlood
 
-Waar: JHP OO.46
+Waar: JHP 00.46
 
 Wanneer: 1 oktober, 19:00
 
