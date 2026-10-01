@@ -20,7 +20,7 @@ Where: JHP 00.46
 
 When: 1st of October, 19:00
 
-📝 [**Register here!**](https://available-jodhpur-f7e.notion.site/30416159981581f8b19ccef77efb4bc2?pvs=105)
+📝 **We're full! Registrations have closed**
 
 ---
 
@@ -36,4 +36,4 @@ Waar: JHP 00.46
 
 Wanneer: 1 oktober, 19:00
 
-📝 [**Schrijf hier in!**](https://available-jodhpur-f7e.notion.site/30416159981581f8b19ccef77efb4bc2?pvs=105)
+📝 **We zitten vol! Registraties zijn gesloten**
