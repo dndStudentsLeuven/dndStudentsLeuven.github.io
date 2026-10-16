@@ -15,3 +15,5 @@ This is a call-out to all GMs: your chance to run that one niche system nobody h
 Got a cult-classic indie game, an obscure old-school gem, or a weird homebrew-friendly system you've been itching to share? Now's the time.
 
 [**GM Only registration**](https://available-jodhpur-f7e.notion.site/2ed161599815806a92becdcb5f481b56)
+
+[**View the available games**](https://available-jodhpur-f7e.notion.site/Open-TTRPG-Night-2ed16159981580428fadcad0f64a083d?pvs=143)
